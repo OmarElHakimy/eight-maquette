@@ -1,0 +1,115 @@
+.bg{ 
+    min-height: 100vh;
+    background: url("../images/img1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg2{ 
+    min-height: 100vh;
+    background: url("../images/img2.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg3{
+    min-height: 100vh;
+    background: url("../images/img3.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg4{
+    min-height: 100vh;
+    background: url("../images/img1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bgDiv{
+    background: url("../images/img1.jpg") no-repeat center center scroll;
+    background-size: cover;
+}
+
+.activate{
+    box-shadow: inset 0 -30px deeppink
+}
+.activated{
+    box-shadow: inset 0 -16px deeppink
+}
+.linkActivate{
+    box-shadow: inset 0 -8px deeppink;
+}
+.vr{
+    border-right: 2px solid white;
+}
+.cedric::before {
+    color: deeppink;
+    content: "Cedric"
+}
+.valerie::before{
+    color: deeppink;
+    content: "Valerie"
+}
+.valerie2::after{
+    display: block;
+    color: deeppink;
+    content: "Gottard"
+}
+
+.listStyled::before{
+    content: "\2015";
+    color: deeppink;
+    width: 2em; 
+    margin-right: 0.5em;
+}
+.listStyledV::before{
+    content: "\2015";
+    color: deeppink;
+    width: 2em; 
+    margin-right: 0.5em;
+}
+.listStyledV::after{
+    content: "\2015";
+    color: deeppink;
+    width: 2em; 
+    margin-right: 0.5em;
+}
+.requireLabel::after{
+    content: " *";
+    color: black;
+}
+.arrow{
+    width:0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 20px solid ;
+}
+a.mainNav{
+    font-size: 2vw;
+}
+a.mainNav.show{
+    box-shadow: inset 0 -16px deeppink;
+    font-size: 2.5vw;
+}
+a.mainNavItem.show{
+    box-shadow: inset 0 -20px deeppink;
+    font-size: 2.5vw;
+}
+a.dropdown-item{
+    color: white;
+}
+a.dropdown-item:hover{
+    color: black;
+}
+/* footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
